@@ -11,7 +11,6 @@ namespace TestDynamicLoading
     {
         private static string NonReferencedLibraryRelativePath = @"..\..\..\..\NonReferencedLibrary\bin\Debug\netcoreapp3.1\NonReferencedLibrary.dll";
         private static string NonReferencedLibrary2RelativePath = @"..\..\..\..\NonReferencedLibrary2\bin\Debug\netcoreapp3.1\NonReferencedLibrary2.dll";
-        private static string NonReferencedLibrary3RelativePath = @"..\..\..\..\NonReferencedLibrary3\bin\Debug\netcoreapp3.1\NonReferencedLibrary3.dll";
         private static string ThisAssemblyLocation;
 
         static void Main(string[] args)
